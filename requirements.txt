@@ -1,0 +1,17 @@
+# App
+fastapi==0.125.0
+uvicorn[standard]==0.27.1
+jinja2==3.1.4
+python-multipart==0.0.9
+
+# Security
+argon2-cffi==23.1.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg[binary]==3.1.18
+
+# Validation
+pydantic==1.10.26
+email-validator==2.1.0
+
