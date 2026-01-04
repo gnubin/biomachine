@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Вход{% endblock %}
+
+{% block content %}
+<h1>Вход</h1>
+
+<form method="post" action="/login">
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="password" name="password" placeholder="Пароль" required>
+
+  <!-- CSRF token будет добавлен позже -->
+  <!-- <input type="hidden" name="csrf_token" value="{{ csrf_token }}"> -->
+
+  <button type="submit">Войти</button>
+</form>
+
+<div class="links">
+  <a href="/register">Регистрация</a>
+</div>
+{% endblock %}
