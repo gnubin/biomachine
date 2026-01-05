@@ -5,9 +5,9 @@ services:
     restart: unless-stopped
 
     environment:
-      POSTGRES_DB: biomachine
-      POSTGRES_USER: biomachine_admin
-      POSTGRES_PASSWORD: strong_admin_password_here
+      POSTGRES_DB: 
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
 
     volumes:
       - pg_data:/var/lib/postgresql/data
