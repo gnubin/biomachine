@@ -22,6 +22,7 @@ app.mount(
     name="static",
 )
 
+
 app.include_router(auth.router)
 
 
